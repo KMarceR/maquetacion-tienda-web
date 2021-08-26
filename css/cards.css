@@ -1,0 +1,23 @@
+/*
+Tarjeta de productos
+https://codepen.io/virgilpana/pen/RNYQwB/
+
+Tarjetas de producto Flexy
+https://codepen.io/Jackthomsonn/pen/oboYmP
+
+Tarjeta de producto
+https://codepen.io/supah/pen/mPbLqp
+*/
+
+.shop-card{
+    text-align: center;
+}
+.shop-card:hover {
+    height: auto;
+    @include center;
+    box-shadow: 0 10px 20px rgba(0,0,0,.3);
+    overflow: hidden;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 2;
+}
